@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 require("dotenv").config();
 
-const apiKey = process.env.apiKey;
+const apiKey = process.env.API_KEY;
 
 app.use(bodyParser.json());
 app.use(express.static("."));
